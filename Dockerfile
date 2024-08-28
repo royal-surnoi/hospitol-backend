@@ -9,5 +9,5 @@ EXPOSE 8080
 
 HEALTHCHECK CMD curl --fail http://localhost:8080/healthcheck
 
-CMD ["nohup","java","-jar","FusionIQ-0.0.1-SNAPSHOT.jar","&"]
+CMD ["nohup","java","-jar","HospitalAppointment-0.0.1-SNAPSHOT.jar","&"]
 
