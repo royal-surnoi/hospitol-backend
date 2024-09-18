@@ -19,7 +19,8 @@ public class HospitalAppointmentApplication {
 
 			public void addCorsMappings(CorsRegistry registry) {
 				registry.addMapping("/**")
-				.allowedOrigins("http://ec2-18-209-60-48.compute-1.amazonaws.com","http://ec2-35-175-238-11.compute-1.amazonaws.com")
+				.allowedOrigins("*")
+				// .allowedOrigins("http://ec2-18-209-60-48.compute-1.amazonaws.com","http://ec2-35-175-238-11.compute-1.amazonaws.com")
 				.allowedMethods("GET", "POST", "PUT", "DELETE")
 				.allowedHeaders("*");
 
