@@ -18,6 +18,7 @@ import com.example.DoctorAppointment.repo.DoctorRepository;
 
 
 @RestController
+@CrossOrigin(origins = "http://hospital-web-lb-261395244.us-east-1.elb.amazonaws.com")
 @RequestMapping("/api/HospitalAppointment/")
 public class AppointmentController {
 	
