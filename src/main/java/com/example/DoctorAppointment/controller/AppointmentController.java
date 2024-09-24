@@ -14,8 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.DoctorAppointment.model.DoctorAppointment;
 import com.example.DoctorAppointment.repo.DoctorRepository;
-
-
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 @RestController
 @CrossOrigin(origins = "http://hospital-web-lb-261395244.us-east-1.elb.amazonaws.com")
